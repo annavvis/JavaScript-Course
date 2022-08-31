@@ -1,18 +1,4 @@
-var myAge = 29;
-
-if (myAge >=18 && myAge <=30) {
-    document.write("you can come in!");
-
-} else {
-    document.write("you ain't coming!");
+for (age= 0; age < 10; age++){
+    console.log("Your age is less than 10");
 }
-
-
-var hisAge = 25;
-
-if (hisAge < 18 || hisAge > 30 || hisAge ===25) {
-    document.write("you ain't coming!");
-
-} else {
-    document.write("you can come in!");
-}
+document.write("you are now over 10");
