@@ -1,4 +1,13 @@
-for (age= 0; age < 10; age++){
-    console.log("Your age is less than 10");
+for (i = 0; i < 10; i++){
+
+    if (i === 5 || i === 3) {
+        continue
+    }
+    
+    console.log (i)
+
+    if(i === 7) {
+        break;
+    }
 }
-document.write("you are now over 10");
+console.log("I have broken out of the loop");
